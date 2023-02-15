@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+
+    background-color: blue;
+}
+
+nav {
+    width: 600px;
+    height: 50px;
+
+    border: 2px solid #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 20px auto 0;
+
+    padding: 0 10px;
+    color: #fff;
+}
+
+nav ul.nav-buttons {
+    display: flex;
+    flex-direction: row;
+
+    gap: 20px;
+
+    list-style-type: none;
+}
